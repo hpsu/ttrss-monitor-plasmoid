@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="serverURL" type="String">
+      <label>Server URL</label>
+      <default>http://localhost/tt-rss</default>
+    </entry>
+    <entry name="serverUser" type="String">
+      <label>Username</label>
+      <default>admin</default>
+    </entry>
+    <entry name="serverUpdate" type="String">
+      <label>Update Frequency (seconds)</label>
+      <default>15</default>
+    </entry>
+  </group>
+</kcfg>

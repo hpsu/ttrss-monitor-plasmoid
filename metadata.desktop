@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Tiny Tiny RSS Monitor
+Comment=Check feed count on a tt-rss installation
+Encoding=UTF-8
+Icon=feed-subscribe
+ServiceTypes=Plasma/Applet
+Type=Service
+X-KDE-PluginInfo-Author=hpsu
+X-KDE-PluginInfo-Name=se.sarstrom.ttrss-monitor
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PLuginInfo-Depends=
+X-KDE-PluginInfo-Website=https://github.com/hpsu/ttrss-monitor-plasmoid
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-NotificationArea=true
+X-Plasma-NotificationAreaCategory=ApplicationStatus
